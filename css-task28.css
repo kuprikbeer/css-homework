@@ -1,0 +1,28 @@
+
+button{
+	border: none;
+}
+.box{
+	display: flex;
+	justify-content: center;
+}
+.button{
+	position: absolute;
+	padding: 7px 40px;
+	background: radial-gradient(80% 20% ,#FFD5EAFF, #FFBBDCFF );
+	font-size: 20px;
+	 box-shadow: 0 0 20px rgba(0,0,0,0.3);
+	border-radius: 20px; 
+	top: 3px;
+	left: 3px;
+
+
+}
+.wrapper{
+	display: inline-block;
+	width: 151px;
+	height: 43px;
+	border:2px solid #FFD5EAFF ;
+	position: relative;
+	border-radius: 22px
+}
