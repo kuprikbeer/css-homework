@@ -1,0 +1,31 @@
+.battory {
+	margin: 15px auto;
+	width: 200px;
+	height: 50px;
+	border: 5px solid black;
+	position: relative;
+}
+.battory:after{
+	content: "";
+	display: block;
+	width: 12px;
+	height: 25px;
+	background-color: black;
+	position: absolute;
+	top: 12.5px;
+	left: 200px;
+
+}
+.red {
+	width: 33%;
+	background-color: red;
+	height: 100%;
+}
+.yellow {
+	width: 66%;
+	background-color: yellow;
+	height: 100%;
+}
+.wrapper .battory:last-child{
+	background-color: green;
+}
